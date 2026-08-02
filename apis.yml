@@ -1,8 +1,24 @@
 aid: tmrw-sports
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tmrw-sports.png
 name: TMRW Sports
-description: 'TMRW Sports is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'TMRW Sports is a sports, media, and entertainment company founded by professional golfers
+  Tiger Woods and Rory McIlroy, with Mike McCarley as Founder and CEO, focused on building modern,
+  tech-forward approaches to live sports. Its ventures include TGL, a primetime team golf league played
+  in partnership with the PGA TOUR; WTGL, a professional women''s golf league; and a professional flag
+  football league launching in partnership with the NFL. Surfaced as a portfolio company of
+  bessemer-venture-partners, TMRW Sports operates consumer sports and entertainment properties and does
+  not publish a public developer platform, API, or documentation surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/tmrw-sports/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Sports
+- Media
+- Entertainment
+- Golf
+- League
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,16 @@ maintainers:
 common:
 - type: Website
   url: https://tmrwsportsgroup.com/
+- type: Blog
+  url: https://tmrwsportsgroup.com/news
+- type: Support
+  url: https://tmrwsportsgroup.com/contact-us
+- type: PrivacyPolicy
+  url: https://tmrwsportsgroup.com/privacy-policy
+- type: DomainSecurity
+  url: security/tmrw-sports-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
